@@ -1,0 +1,62 @@
+{
+  "selected_method": "CatBoost_hybrid",
+  "baseline_reference": "Latest",
+  "selection_origins": [
+    "2024-03-04",
+    "2024-04-29",
+    "2024-06-24",
+    "2024-08-19",
+    "2024-10-14",
+    "2024-12-09",
+    "2025-02-03",
+    "2025-03-31",
+    "2025-05-26",
+    "2025-07-21"
+  ],
+  "control_origin": "2026-03-02",
+  "score": 0.01973712770481375,
+  "selection_stats": {
+    "mean": {
+      "CatBoost_hybrid": 0.019737,
+      "CatBoost_two_stage": 0.019742,
+      "Latest": 0.020474,
+      "CatBoost": 0.020867,
+      "Mean4": 0.022712,
+      "Ridge": 0.024844,
+      "SeasonalNaive": 0.046163
+    },
+    "std": {
+      "CatBoost_hybrid": 0.003044,
+      "CatBoost_two_stage": 0.003073,
+      "Latest": 0.005792,
+      "CatBoost": 0.002813,
+      "Mean4": 0.006185,
+      "Ridge": 0.009811,
+      "SeasonalNaive": 0.020655
+    },
+    "count": {
+      "CatBoost_hybrid": 10,
+      "CatBoost_two_stage": 10,
+      "Latest": 10,
+      "CatBoost": 10,
+      "Mean4": 10,
+      "Ridge": 10,
+      "SeasonalNaive": 10
+    }
+  },
+  "control_used_for_selection": false,
+  "selection_scores": {
+    "CatBoost_hybrid": 0.01973712770481375,
+    "CatBoost_two_stage": 0.01974171073254701,
+    "Latest": 0.020474279798230494,
+    "CatBoost": 0.020866675504060347,
+    "Mean4": 0.0227117186250891,
+    "Ridge": 0.024843926240759127,
+    "SeasonalNaive": 0.04616327089440632
+  },
+  "control_MAE": 0.018415302745574166,
+  "control_RMSE": 0.026270680852178527,
+  "control_Bias": -0.013625559990609633,
+  "final_rows": 31586,
+  "new_store_rows": 702
+}
